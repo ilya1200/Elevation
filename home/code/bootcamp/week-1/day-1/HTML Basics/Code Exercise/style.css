@@ -1,0 +1,48 @@
+h1 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 80%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: palevioletred;
+    border-radius: 3px;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+
+}
+
+h1{
+    color: wheat;
+    text-shadow: 1px 1px black;
+    margin-bottom: 20px;
+}
+
+h1,
+header{
+    border-bottom: 25px solid lightpink;
+}
+
+img{
+    width: 95%;
+}
+
+.follow-us{
+    background: palegoldenrod;
+}
+
+.main-div {
+    width:  50%;
+    display: inline-block;
+}

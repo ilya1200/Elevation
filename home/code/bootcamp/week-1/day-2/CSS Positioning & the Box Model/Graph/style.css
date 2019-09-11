@@ -1,0 +1,67 @@
+.graph{
+    background-color: rgb(116, 54, 173);
+    height: 161px;
+    width: 314px;
+    border-radius: 5px;
+    padding: 5px 10px 10px;
+
+    position: relative;
+}
+
+.axis{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+
+    position: absolute;
+}
+
+.axis-x{
+    bottom:9px;
+    right: 15px;
+}
+
+.bar-chart{
+    width: 260px;
+    height: 140px;
+
+    position: absolute;
+    bottom: 9px;
+
+    /* border:1px dashed aqua; */
+}
+
+.bar{
+    width: 20px;
+    background-color: antiquewhite;
+    position: absolute;
+    bottom: 0;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.bar-1{
+    height: 30px;
+    left: 10px;
+}
+
+.bar-2{
+    height: 50px;
+    left: 40px;
+}
+
+.bar-3{
+    height: 120px;
+    left: 70px;
+}
+
+.bar-4{
+    height: 50px;
+    left: 100px;
+}
+
+.bar-5{
+    height: 120px;
+    left: 130px;
+}

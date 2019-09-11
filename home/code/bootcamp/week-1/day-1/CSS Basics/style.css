@@ -1,0 +1,4 @@
+/* All p elements that are direct descendants of a div are given green text */
+div > p  {
+    color: green;
+}

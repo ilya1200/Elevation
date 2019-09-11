@@ -1,0 +1,57 @@
+Q: Using JQ:  How can we select DOM elements?
+A: $("selector"): $("#id"),$(".class"),$("htmlTag")...
+
+
+Q:Using JQ:  const elem = $("#id")
+What elem holds?
+A: A JQuery Object, that wrappes 
+the selected element, also provide it with methodes.
+
+Q:Using JQ:  Given <h4>, how can we
+change it css, to "color:red"?
+A: $('h4').css("color","red").
+*The css method takes two arguments: the first is the css property and second is the value
+
+Q:Using JQ: How can we add a class?
+A:$('h4').addClass("class-name")
+
+Q: Using JQ:
+<input type="text" id="my-input" placeholder="Some Text!">
+How can we read/modify input's value?
+A: $("#my-input").val()
+
+
+Q:Why we add the "data-..." attribute in HTML element?
+like: <div data-color="#2980b9">Blue</div>
+A:By adding data-something we add extra data about the 
+element to the HTML,
+it wont be visible to the user, but
+this data is available to us through code.
+
+Q: Using JQ , given:
+<div data-color="#2980b9">Blue</div>
+How can we access the data-color value?
+A:$("div").data().color;
+Because, $("div").data() returns {color:#2980b9}
+
+Q:Using JQ :
+How can we make an element we are going to insert
+to the DOM ?
+A: We can create a string: "<div class='mine'>Oh yes</div>",
+Or we can create a JQ object - 
+const aDynamicDiv = "<div class='mine'>Oh yes</div>"
+const elem = $(aDynamicDiv)
+
+Q:Using JQ :
+How can we remove all <p> from the page?
+A: $('p').remove()
+
+Q:Using JQ :
+How can we remove all <p> with the class ".brown" from the page?
+A:$("p").remove(".brown")
+
+
+Q:When we adding event listener to the DO,
+The implicit assumtion ?
+A:That the element we are adding the listener already exist 
+on the DOM

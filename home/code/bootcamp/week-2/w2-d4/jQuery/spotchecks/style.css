@@ -1,0 +1,58 @@
+/*check spot 4*/
+
+/* .box{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+} */
+
+/* .hover-div{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+} */
+
+/*check spot 8*/
+/* .box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: purple;
+    display: inline-block;
+  } */
+
+/*check spot 10*/
+/* #list{
+    border: 1px solid black;
+    width: 200px;
+    list-style: none;
+    border-radius: 5px;
+    background-color: lightslategray;
+    padding: 0;
+    text-align: center;
+}
+
+#list > li{
+    background-color: aliceblue;
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+} */
+
+/* #blogs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.blog{
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 5px;
+    background-color: lightslategray;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+} */
